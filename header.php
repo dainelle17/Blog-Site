@@ -8,9 +8,11 @@
 </head>
 <body>
 	<div class ="container">
+        <div class=”header-container”>
+            <img src="img/daydreamer_banner.png"/>
+        </div>
 		<header class="row">
 			<div class="nine columns">
-                      <img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" />
 				<h1><a href="<?php bloginfo('url'); ?>"> <?php bloginfo('name');?> </a> </h1>
 				<h2> <?php bloginfo('description'); ?></h2>
 			</div>
