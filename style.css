@@ -1,8 +1,8 @@
 /*
-Theme Name: DainelleRiley Blank Theme
+Theme Name: DainelleRiley Blog Theme
 Theme URI: thedaydreamerdesigns.com/wp
 Author: Dainelle Riley
-Description: Blank theme for WIE course
+Description: Blog theme for WIE course
 Version: 0.1
 License: Open
 Text Domain: riley_dainelle_blank_template
@@ -44,6 +44,24 @@ h6 {
     font-size: 1.0rem;
 }
 
+/* Blog row */
+
+.blogcontainer {
+    float: left;
+    display:inline-flex;
+}
+
+.blogdisplay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogdisplay img { 
+    display: block;
+    margin-left: auto;
+}
+
 .blank-menu-header {
     text-align: right;
     margin-top: 40px;
@@ -71,4 +89,23 @@ h6 {
 .single-post-thumbnail img {
     width: 100%;
     height: auto;
+}
+
+/* Blog row */
+
+.blogcontainer {
+    float: left;
+    display:inline-flex;
+}
+
+.blogdisplay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogdisplay img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

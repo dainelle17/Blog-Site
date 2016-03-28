@@ -1,7 +1,11 @@
 <?php get_header(); ?>         
                 
 			<section class="row">
-                <div class="twelve columns">              
+                <div class="twelve columns">     
+                <div class="blogcontainer">
+                    <div class="row">
+                        <div class="blogdisplay">
+                            <div class="10 columns">
                 	<?php
                     if ( have_posts() ) {
                         while ( have_posts() ) {
@@ -19,3 +23,5 @@
             </section>
                     
  <?php get_footer(); ?>
+
+
